@@ -1,1 +1,0 @@
-function kin = generateKineticsample(B,Lmax)  Nbasis = (Lmax+1)^2;    i = 0;  disp('we are in genKIN');  for l1 = 0:Lmax    for m1 = -l1:l1        i++;         kin1(i,i) = B*l1*(l1+1);    end   end     I = eye(Nbasis);    kin = kron(kin1,I)+kron(I,kin1);  disp(size(kin));  %disp(kin);end

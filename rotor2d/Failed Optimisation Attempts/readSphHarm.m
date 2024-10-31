@@ -1,1 +1,0 @@
-function SphHarm = readSphHarm(phi,theta)  SphHarm = dlmread('SphHarmCol.txt');end
