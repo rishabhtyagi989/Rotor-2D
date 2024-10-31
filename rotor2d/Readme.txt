@@ -5,7 +5,6 @@ The full programme is divided into 6 folders namely in the order:
 3)"EQQ_results"
 4)"EQQplot"
 5)"CoeffPlot"
-6)"Failed Optimisation Attempts"
 
 This text file aims to describe the contents of each of these folders.
 ------
@@ -59,12 +58,3 @@ Contains textiles for plotting energy vs interaction strength graphs and vs Lmax
 #CoeffBasis:
 
 Contains text files and .dat files for plotting coefficient vs pressure plots which we used to weight different basis in our expansion w.r.t the interaction strength.
-
------------
-
-#Failed Optimisation Attempts
-
-This contains some of the 'failed' coding strategies that were appointed to enhance the speeding of computation, includes vectorised versions of EQQdist.m and generatekinetic.m for example, however clearly as the title suggests these techniques didn't quite work due to a possible bug I talk about this in the report too in appendix A.1. May look into them and if possible fix the bug.
-
-
-
