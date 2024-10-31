@@ -1,5 +1,23 @@
 # Project Overview
 
+This project provides a comprehensive quantum mechanical framework for simulating two interacting hydrogen molecules, specifically focusing on the quadrupole-quadrupole (EQQ) interactions. The model has been used to study the system’s energy eigenvalues and eigenstates, analyze wavefunction symmetries, and predict molecule orientations under high-pressure conditions.
+
+## Applications and Achievements
+
+This code has been used to achieve the following:
+
+1. **Understanding Phase Transitions**: By studying the energy levels and degeneracies of the system under different interaction strengths, this project offers insights into hydrogen's phase transitions, particularly from Phase I (free rotors) to Phase II (correlated rotors) in solid hydrogen.
+
+2. **Symmetry and Molecular Orientation Analysis**: The integrated wavefunctions provide a qualitative understanding of molecular orientations within the lattice, supporting symmetry predictions relevant to the crystal structures of solid hydrogen.
+
+3. **Raman Spectra Calculation**: By simulating Raman spectra for the interacting rotor system, this code offers a pathway to predict phase transition signatures that are experimentally observable.
+
+4. **Optimization for Efficient Computation**: The project includes optimization routines to minimize memory and time requirements, making the simulation feasible for desktop-level computation.
+
+5. **Future Extensions**: The code can be adapted to simulate a longer chain of interacting rotors, enabling analysis of larger molecular clusters with periodic boundary conditions, a key step toward modeling more realistic condensed matter systems.
+
+Each module within the project is designed to address these objectives, making this tool valuable for studying molecular interactions and lattice dynamics in quantum molecular solids.
+
 This project is organized into five main folders:
 
 1. **Primary Modules**
