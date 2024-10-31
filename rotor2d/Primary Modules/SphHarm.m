@@ -1,0 +1,1 @@
+function SphHarmCol = SphHarm(phi,theta,Lmax,Ngrid)  tic  Nbasis = (Lmax+1)^2;   SphHarmCol = getComplexSphHarmCol(0,phi,theta);  for l = 1:Lmax      SphHarmCol = [SphHarmCol; getComplexSphHarmCol(l,phi,theta)];  end    % Write this matrix to a file.  %fid = fopen('SphHarmCol.txt','w');  %dlmwrite(fid,SphHarmCol);  %fclose(fid)  toc  end

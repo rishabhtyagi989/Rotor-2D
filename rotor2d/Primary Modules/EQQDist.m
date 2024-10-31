@@ -1,0 +1,1 @@
+function EQQ = EQQDist(r,n1,n2,n,lambda)   %The function computes the formula for EQQ term in the cartesian coordiantes   a = 35*(dot(n1,n)*dot(n1,n))^2;  b=5*(dot(n,n1))^2;  c=5*(dot(n,n2))^2;  d=20*dot(n,n1)*dot(n,n2)*dot(n1,n2);  e=2*(dot(n1,n2))^2;  EQQ = lambda*(a-b-c-d+e+1)/(r.^5);  end  

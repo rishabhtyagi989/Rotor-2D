@@ -1,0 +1,1 @@
+function kin = generateKinetic(B,Lmax)  Nbasis = (Lmax+1)^2;  kin = zeros(Nbasis^2);    i = 0;  disp('we are in genKIN');  for l1 = 0:Lmax   for l2 = 0:Lmax    for m1 = -l1:l1      for m2 = -l2:l2        i++;         kin(i,i) = B*l1*(l1+1)+B*l2*(l2+1);      end    end    end  end  disp(size(kin));  %disp(kin)end

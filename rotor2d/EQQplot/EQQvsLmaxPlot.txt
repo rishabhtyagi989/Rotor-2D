@@ -1,0 +1,7 @@
+set terminal png enhanced size 1800,1200
+set output "EngvsLmax2.png"
+set xrange [0:10]
+set yrange [0:30]
+set xlabel "{/*2 Lmax}"
+set ylabel "{/*2 Energy}"
+plot for [col=2:50] 'engvsNbasisH2.dat' using 1:col with lines lw 2 notitle 

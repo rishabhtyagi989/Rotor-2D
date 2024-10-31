@@ -1,0 +1,7 @@
+set terminal png enhanced size 1800,1200
+set output "CoeffvsSphHarm.png"
+set xrange [0:10]
+set yrange [0:30]
+set xlabel "{/*2 Spherical Harmonics}"
+set ylabel "{/*2 Expansion Coefficients}"
+plot for [col=1:2] 'coeff_QQH2.dat' using 1:col with lines lw 2 notitle 
