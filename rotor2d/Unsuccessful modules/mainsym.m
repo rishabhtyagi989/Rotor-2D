@@ -1,1 +1,0 @@
-clear all;Ngrid = 15;Lmax = 1;           %basis set cut-off (spherical harmonics L)P=2;da = pi/Ngrid;                      %spehrical grid densityphi = 0:2*da:(2*pi-2*da);theta = 0:da:(pi-da);[phi,theta] = meshgrid(phi,theta);SphHarmCol = generateBasis(phi,theta,Lmax,Ngrid);[sym,antisym,none] = symcheck(Lmax,P);

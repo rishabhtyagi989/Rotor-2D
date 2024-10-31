@@ -1,1 +1,0 @@
-clear all;ticNgrid = 15;         %number of grid points in any dimensionLmax = 1;          %basis set cut-off (spherical harmonics L)da = pi/Ngrid; %spehrical grid densityphi = 0:2*da:(2*pi-2*da);theta = 0:da:(pi-da);[phi,theta] = meshgrid(phi,theta);SphHarmColwrite = generateBasis(phi,theta,Lmax,Ngrid);toc
